@@ -74,14 +74,24 @@ letter-spacing: 0.28px;
 .footer__item {
 }
 
-.main {
-}
+/* hero */
+
 .hero {
 }
 .hero__title {
+    color: #FFF;
+text-align: center;
+font-family: "Roboto";
+font-size: 44px;
+
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 .hero__butoon {
 }
+/* information */
 .information {
 }
 .information__list {
@@ -89,17 +99,22 @@ letter-spacing: 0.28px;
 .information__item {
 }
 .information__title {
+    color: var(--title-color);
 }
 .information__subtitle {
+    color: var(--main-text-color);
 }
+/* works */
 .works {
 }
 .works__title {
+    color: var(--title-color);
 }
 .works__list {
 }
 .works__item {
 }
+/* team */
 .team {
 }
 .team__title {
@@ -109,6 +124,44 @@ letter-spacing: 0.28px;
 .team__item {
 }
 .team__names {
+    color: var(--title-color);
 }
 .team__position {
+    color: var(--main-text-color);
+}
+
+/* portfolio */
+
+.portfolio__main {
+}
+.services {
+}
+.services__list {
+}
+.services__item {
+    
+}
+.services__buttons {
+    color: var(--title-color);
+
+
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.48px;
+
+}
+.advertisement {
+}
+.advertisement__list {
+}
+.advertisement__item {
+}
+.advertisement__title {
+    color: var(--title-color);
+}
+.advertisement__subtitle {
+    color: var(--main-text-color);
 }
