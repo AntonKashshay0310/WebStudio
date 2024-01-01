@@ -234,19 +234,27 @@ letter-spacing: 0.48px;
 .services {
 }
 .services__list {
+    display: flex;
+justify-content: center;
+gap: 8px;
+margin-top: 132px;
+margin-bottom: 56px;
 }
 .services__item {
     
 }
 .services__buttons {
+    
     color: var(--title-color);
 font-size: 16px;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 
+
 }
 .advertisement {
+    flex-basis: calc((100% - 3 * 60) / 3);
 }
 .advertisement__list {
 }
