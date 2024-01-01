@@ -87,7 +87,7 @@ letter-spacing: 0.28px;
 
  /*Footer  */
 
-.footer .container{
+.footer {
 background: #2F303A;
 padding-top: 60px;
 padding-bottom: 60px;
@@ -130,11 +130,15 @@ letter-spacing: 0.42px;
 /* hero */
 
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 600px;
     background: #2f303a;
   }
 
 .hero__title {
+    
     color: #fff;
     text-align: center;
     font-size: 44px;
@@ -142,8 +146,12 @@ letter-spacing: 0.42px;
     line-height: 136.364%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-bottom: 40px;
+    
 }
 .hero__butoon {
+    display: block;
+    margin: 0 auto;
     width: 216px;
   height: 50px;
   border-radius: 4px;
@@ -159,9 +167,10 @@ letter-spacing: 0.42px;
 }
 /* information */
 .information {
-    margin-top: 94px;
 }
 .information__list {
+    display: flex;
+    justify-content: space-between;
 }
 .information__item {
 }
@@ -196,6 +205,8 @@ margin-bottom: 10px;
     letter-spacing: 1.08px;
 }
 .works__list {
+    display: flex;
+    gap: 30px;
 }
 .works__item {
 }
@@ -205,6 +216,8 @@ margin-bottom: 10px;
 .team__title {
 }
 .team__list {
+    display: flex;
+    gap: 30px;
 }
 .team__item {
 }
@@ -224,7 +237,7 @@ letter-spacing: 0.48px;
 }
 
 .team__img {
-    gap: 30px;
+    
 }
 
 /* portfolio */
