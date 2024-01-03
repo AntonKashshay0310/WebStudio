@@ -270,8 +270,12 @@ letter-spacing: 0.48px;
     flex-basis: calc((100% - 3 * 60) / 3);
 }
 .advertisement__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .advertisement__item {
+
 }
 .advertisement__title {
     color: var(--title-color);
