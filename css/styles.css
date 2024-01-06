@@ -12,7 +12,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .section {
@@ -263,9 +263,14 @@ font-size: 16px;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
-
-
 }
+
+.services__buttons:hover, .services__buttons:focus {
+background-color: #2196F3;
+color: white;
+}
+
+
 .advertisement {
     
 }
