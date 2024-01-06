@@ -267,7 +267,7 @@ letter-spacing: 0.48px;
 
 }
 .advertisement {
-    flex-basis: calc((100% - 3 * 60) / 3);
+    
 }
 .advertisement__list {
     display: flex;
@@ -275,7 +275,7 @@ letter-spacing: 0.48px;
     gap: 30px;
 }
 .advertisement__item {
-
+    flex-basis: calc((100% - 2 * 30) / 3);
 }
 .advertisement__title {
     color: var(--title-color);
