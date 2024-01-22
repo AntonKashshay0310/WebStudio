@@ -325,10 +325,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    
 }
 
 .advertisement__item {
     flex-basis: calc((100% - 2 * 30) / 3);
+   
 }
 
 .advertisement__title {
