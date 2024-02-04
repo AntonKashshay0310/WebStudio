@@ -166,21 +166,21 @@ body {
 }
 
 .hero__butoon {
-    display: block;
-    margin: 0 auto;
-    width: 216px;
-    height: 50px;
-    border-radius: 4px;
-    background: #2196f3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #fff;
+    color: #FFF;
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
-    /* 187.5% */
+    line-height: 187.5%;
     letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: #2196F3;
+    /* shadow-middle */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    width: 216px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* information */
@@ -295,6 +295,9 @@ body {
 .team__item {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+    margin-bottom: 94px;
+    margin-top: 50px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)
 }
 
 .team__names {
@@ -335,21 +338,25 @@ body {
 .services__item {}
 
 .services__buttons {
-    border-radius: 4px;
-    background: #F5F4FA;
-    color: var(--title-color);
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
     line-height: 26px;
     /* 162.5% */
     letter-spacing: 0.48px;
+    border-radius: 4px;
     padding: 6px 22px;
+    background-color: #F5F4FA;
 }
 
 .services__buttons:hover,
 .services__buttons:focus {
-    background-color: #2196F3;
-    color: white;
+    color: #FFF;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 
@@ -363,8 +370,13 @@ body {
 }
 
 .advertisement__item {
-    flex-basis: calc((100% - 2 * 30) / 3);
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    border: 1px solid #EEE;
    
+}
+
+.advertisement__item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .advertisement__title {
