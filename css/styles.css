@@ -57,7 +57,7 @@ body {
 .header__nav__list {
     display: flex;
     gap: 50px;
-    margin-right: 344px;
+    margin-right: 318px;
 }
 
 
@@ -77,14 +77,16 @@ body {
 
 .header__contact__list {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    gap: 30px;
 }
 
-.header__contact__item:hover {
-    color: var(--link-color);
-}
+
 
 .header__contact__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: var(--main-text-color);
     font-size: 14px;
     font-weight: 500;
@@ -93,7 +95,12 @@ body {
 
 .header__contact__link:hover,
 .header__contact__link:focus {
-    color: #2196F3;
+    
+    color:  var(--link-color);
+}
+
+.header__contact__icon {
+    fill: currentColor;
 }
 
 /*Footer  */
