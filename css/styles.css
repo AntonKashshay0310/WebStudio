@@ -232,8 +232,17 @@ body {
     gap: 30px;
 }
 
-.works__item {}
+.works__item {
+    position: relative;
+}
 
+.works__img {
+
+}
+
+.works__subtitle {
+    
+}
 /* team */
 .team {
     display: flex;
