@@ -368,5 +368,66 @@
           </div>
       </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="button__modal" data-modal-close>
+            <svg class="button__svg">
+                <use class="button__use" href="./images/icons/symbol-defs.svg#icon-close"></use>
+            </svg>
+        </button>
+        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="modal__form">
+            <label class="label__modal" for="user__name">
+                Ім'я
+                <div class="label__thumb">
+                    <div class="color__change">
+                        <input class="form__input" type="text" name="text" id="user__name" />
+                        <svg id="icon__vector" class="label__svg">
+                            <use href="./images/icons/symbol-defs.svg#icon-vector"></use>
+                        </svg>
+                    </div>
+                </div>
+            </label>
+            <label class="label__modal" for="user__phone">
+                Телефон
+                <div class="label__thumb">
+                    <div class="color__change">
+                        <input class="form__input" type="password" name="password" id="user__phone" />
+                        <svg id="icon__phone" class="label__svg">
+                            <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+            </label>
+            <label class="label__modal" for="user__email">
+                Пошта
+                <div class="label__thumb">
+                    <div class="color__change">
+                        <input class="form__input" type="email" name="email" id="user__email" />
+                        <svg id="icon__email" class="label__svg">
+                            <use href="./images/icons/symbol-defs.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+            </label>
+            <label class="label__four" for="coment">
+                Коментар
+                <textarea class="text__label" name="text" id="coment" cols="30" rows="10"
+                    placeholder="Введіть текст"></textarea>
+            </label>
+            <label>
+                <div class="label__input">
+                    <h3 class="label__title">Погоджуюся з розсилкою та приймаю <a class="label__link" href="#">Умови
+                            договору</a></h3>
+                    <input class="input__div" type="checkbox" name="security"
+                        value="Погоджуюся з росилкою та приймаю Умови договору">
+                </div>
+            </label>
+            <button class="btn" data-close-modal>Відправити</button>
+        </form>
+    </div>
+</div>
+
+<script src="./module.js"></script>
   </body>
 </html>
