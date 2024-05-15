@@ -397,6 +397,8 @@ body {
     fill: currentColor;
 }
 
+/* footer */
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -409,6 +411,11 @@ body {
 
 .footer__div {
     display: flex;
+    align-items: baseline;
+}
+
+.footer__div-logo {
+    margin-right: 70px;
 }
 
 .footer__list {
@@ -421,7 +428,6 @@ body {
 
 .footer__adress {
     color: #FFF;
-    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 171.429%;
@@ -436,14 +442,8 @@ body {
     letter-spacing: 0.42px;
 }
 
-.footer__div-link {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 15px;
-    margin-left: 70px;
-
-}
+/* .footer__div-link {
+} */
 
 .footer__icons .team__icons-link {
     background-color: rgba(255, 255, 255, 0.10);
@@ -457,16 +457,15 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 20px;
 }
 
 .footer__link-subtitle {
     color: #FFF;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .footer__icons-link {}
@@ -478,16 +477,17 @@ body {
 }
 
 .footer__link {
-    display: flex;
-}
-.footer__modal {
-    margin-left: 93px;
-    margin-top: 15px;
 }
 
-.footer__label-title {
+
+/* send */
+.footer__send {
+    margin-left: 93px;
+    /* border: 1px solid red; */
+}
+
+.footer__label__title {
     color: #FFF;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
@@ -496,12 +496,10 @@ body {
 }
 
 .footer__form {
-    position: relative;
+    display: flex;
 }
 
 .footer__label {
-    width: 358px;
-    height: 50px;
 }
 
 .footer__input {
@@ -513,30 +511,28 @@ body {
     padding-left: 16px;
 }
 
-.footer__form-button {
-    width: 200px;
-    height: 50px;
-    flex-shrink: 0;
+.footer__form__button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* width: 200px;
+    height: 50px; */
+    padding: 10px 28px;
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
-    padding-right: 35px;
     margin-left: 12px;
 }
 
-.footer__form-svg {
-    position: absolute;
+.footer__svg {
     width: 24px;
     height: 24px;
-    right: 30px;
-    top: 13px;
 }
 
 
