@@ -70,6 +70,18 @@ body {
     letter-spacing: 0.28px;
 }
 
+.header__nav__list :not(:last-child)::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: #2196F3;
+    margin-top: 25px;
+}
+
+
+
 .header__nav__link:hover,
 .header__nav__link:focus {
     color: #2196F3;
@@ -633,6 +645,10 @@ body {
     visibility: hidden;
 }
 
+/* .no-scroll {
+    overflow: hidden;
+} */
+
 .modal {
     position: absolute;
     top: 50%;
@@ -808,6 +824,36 @@ body {
     background: #188CE8;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
+}
+
+.div__proposite {
+    position: relative;
+    overflow: hidden;
+}
+
+.div__proposite:hover .overlay {
+    transform: translateY(0);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.90);
+    transform: translateY(100%);
+    transition: transform 400ms ease-in-out;
+}
+
+.overlay__text {
+    width: 322px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+    margin: 63px 24px;
 }
 
 
