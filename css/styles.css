@@ -70,7 +70,7 @@ body {
     letter-spacing: 0.28px;
 }
 
-.header__nav__list :not(:last-child)::after {
+.header__nav__list {
     content: '';
     display: block;
     width: 48px;
