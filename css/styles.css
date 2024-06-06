@@ -670,6 +670,8 @@ body {
 } */
 
 .modal {
+    transform: scaleX(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -694,7 +696,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 50%;
     background-color: #FFF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2,);
+    /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2,); */
 
 }
 
