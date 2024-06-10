@@ -376,7 +376,6 @@ body {
   height: 298px;
   background: #fff;
 }
-
 .client__title {
   color: #212121;
   text-align: center;
@@ -386,15 +385,13 @@ body {
   margin-top: 94px;
   margin-bottom: 50px;
 }
-
 .client__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  color: var(--link-color);
+  color: #2196F3;
 }
-
 .client__item {
   align-items: center;
   justify-content: center;
@@ -406,12 +403,10 @@ body {
   fill: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .client__item:hover {
   border-color: #2196f3;
-  color: var(--link-color);
+  color: #2196F3;
 }
-
 .client__icons {
   width: 106px;
   height: 60px;
@@ -421,8 +416,7 @@ body {
   margin: 16px 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.client__icons:hover {
+.client:hover {
   fill: currentColor;
 }
 
@@ -558,11 +552,11 @@ body {
 }
 
 .modal {
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) scaleX(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scaleX(1);
   width: 528px;
   height: 581px;
   border-radius: 4px;
