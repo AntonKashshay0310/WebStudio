@@ -1,63 +1,64 @@
 .information {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__item {
+  }
+  
+  &__item::before {
+    content: "";
+    display: block;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  
+  &__item:nth-child(1)::before {
+    background-image: url(../images/information/antenna1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &__item:nth-child(4)::before {
+    background-image: url(../images/information/astronaut1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &__item:nth-child(2)::before {
+    background-image: url(../images/information/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &__item:nth-child(3)::before {
+    background-image: url(../images/information/diagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &__title {
+    color: $titleColor;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  &__subtitle {
+    color: $mainTextColor;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    width: 270px;
+  }
+  
 }
 
-.information__list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.information__item {
-}
-
-.information__item::before {
-  content: "";
-  display: block;
-  border-radius: 4px;
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-}
-
-.information__item:nth-child(1)::before {
-  background-image: url(../images/information/antenna1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.information__item:nth-child(4)::before {
-  background-image: url(../images/information/astronaut1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.information__item:nth-child(2)::before {
-  background-image: url(../images/information/clock.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.information__item:nth-child(3)::before {
-  background-image: url(../images/information/diagram.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.information__title {
-  color: var(--title-color);
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.information__subtitle {
-  color: var(--main-text-color);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  /* 171.429% */
-  letter-spacing: 0.42px;
-  width: 270px;
-}
