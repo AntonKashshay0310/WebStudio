@@ -1,3 +1,9 @@
+.footer__label__title, .footer__link-subtitle, .information__title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+}
+
 *,
 *::after,
 *::before {
@@ -206,9 +212,6 @@ body {
 }
 .information__title {
   color: #212121;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -381,7 +384,7 @@ body {
   padding-bottom: 60px;
   background: #2f303a;
   /* .footer__div-link {
-  } */
+    } */
   /* send */
 }
 .footer__logo-colored {
@@ -427,9 +430,6 @@ body {
 }
 .footer__link-subtitle {
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -438,9 +438,6 @@ body {
 }
 .footer__label__title {
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }

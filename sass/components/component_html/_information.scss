@@ -44,9 +44,7 @@
   
   &__title {
     color: $titleColor;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
+  @extend %text;
     text-transform: uppercase;
     margin-bottom: 10px;
   }
