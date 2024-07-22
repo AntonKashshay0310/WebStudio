@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/main.min.css">
-  </head>
-  <body>
-    <!-- header -->
-    <header class="header">
-      <div class="container">
-        <a class="header__logo" href="./index.html"
-          ><span class="header__logo--colored">Web</span>Studio</a
-        >
-        <nav class="header__nav">
-          <ul class="header__nav__list">
-            <li class="header__nav__item">
-              <a class="header__nav__link current" href="./index.html">Студія</a>
-            </li>
-            <li class="header__nav__item">
-              <a class="header__nav__link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="header__nav__item">
-              <a class="header__nav__link" href="#">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="header__contact__list">
-          <li class="header__contact__item">
-            <a href="meilto:info@devstudio.com" class="header__contact__link">
-              <svg class="header__contact__icon" width="16" height="12">
-                <use href="./images/icons/symbol-defs.svg#icon-envelope"></use>
-              </svg>
 
-              info@devstudio.com</a
-            >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <a class="header__logo" href="./index.html"><span class="header__logo--colored">Web</span>Studio</a>
+      <nav class="header__nav">
+        <input type="checkbox" id="toggle">
+        <label for="toggle">
+          <span class="toggle-btn"></span>
+        </label>
+        <!-- <ul class="header__nav__list">
+          <li class="header__nav__item">
+            <a class="header__nav__link current" href="./index.html">Студія</a>
           </li>
-          <li class="header__contact__item">
-            <a href="tel:+380961111111" class="header__contact__link">
-              <svg class="header__contact__icon" width="10" height="16">
-                <use
-                  href="./images/icons/symbol-defs.svg#icon-smartphone"
-                ></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
+          <li class="header__nav__item">
+            <a class="header__nav__link" href="./portfolio.html">Портфоліо</a>
           </li>
-        </ul>
-      </div>
-    </header>
+          <li class="header__nav__item">
+            <a class="header__nav__link" href="#">Контакти</a>
+          </li>
+        </ul> -->
+      </nav>
+      <!-- <ul class="header__contact__list">
+        <li class="header__contact__item">
+          <a href="meilto:info@devstudio.com" class="header__contact__link">
+            <svg class="header__contact__icon" width="16" height="12">
+              <use href="./images/icons/symbol-defs.svg#icon-envelope"></use>
+            </svg>
 
-    <!-- main -->
+            info@devstudio.com</a>
+        </li>
+        <li class="header__contact__item">
+          <a href="tel:+380961111111" class="header__contact__link">
+            <svg class="header__contact__icon" width="10" height="16">
+              <use href="./images/icons/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a>
+        </li>
+      </ul> -->
+    </div>
+  </header>
 
-    <main class="main">
-      <section class="hero section">
+  <!-- main -->
+
+  <main class="main">
+    <!-- <section class="hero section">
         <div class="container">
           <h1 class="hero__title  animate__animated animate__backInUp">
             Ефективні рішення для 
@@ -77,8 +71,8 @@
             Замовити послугу
           </button>
         </div>
-      </section>
-      <section class="information section">
+      </section> -->
+    <!-- <section class="information section">
         <div class="container">
           <ul class="information__list">
             <li class="information__item">
@@ -110,8 +104,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="works section">
+      </section> -->
+    <!-- <section class="works section">
         <div class="container">
           <h2 class="works__title">Чим ми займаємося</h2>
           <ul class="works__list">
@@ -129,8 +123,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="team">
+      </section> -->
+    <!-- <section class="team">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
@@ -316,8 +310,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="client">
+      </section> -->
+    <!-- <section class="client">
         <div class="container">
           <h2 class="client__title">Постійні клієнти</h2>
           <ul class="client__list">
@@ -353,10 +347,10 @@
             </li>
           </ul>
         </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer class="footer">
+      </section> -->
+  </main>
+  <!-- Footer -->
+  <!-- <footer class="footer">
       <div class="container">
         <div class="footer__div">
           <div class="footer__div-logo">
@@ -421,7 +415,7 @@
             </ul>
           </div>
 
-            <!-- send -->
+      
             <div class="footer__send">
               <h4 class="footer__label__title">Підпишіться на розсилку</h4>
               <form class="footer__form">
@@ -447,97 +441,66 @@
           
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <!-- modal -->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="modal__button-close" data-modal-close>
-          <svg class="button__svg">
-            <use href="./images/icons/symbol-defs.svg#icon-close-button"></use>
-          </svg>
-        </button>
-        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
-        <form class="modal__form">
-          <label class="form__label" for="user__name">
-            Ім'я
-            <div class="label__thumb">
-              <input
-                class="form__input"
-                type="text"
-                name="text"
-                id="user__name"
-              />
-              <svg id="icon__vector" class="label__svg">
-                <use
-                  href="./images/icons/symbol-defs.svg#icon-person-black"
-                ></use>
-              </svg>
-            </div>
-          </label>
-          <label class="form__label" for="user__phone">
-            Телефон
-            <div class="label__thumb">
-              <input
-                class="form__input"
-                type="text"
-                name="tel"
-                pattern="^[ 0-9]+$"
-                id="user__phone"
-              />
-              <svg id="icon__phone" class="label__svg">
-                <use
-                  href="./images/icons/symbol-defs.svg#icon-phone-black"
-                ></use>
-              </svg>
-            </div>
-          </label>
-          <label class="form__label" for="user__email">
-            Пошта
-            <div class="label__thumb">
-              <input
-                class="form__input"
-                type="email"
-                name="email"
-                id="user__email"
-              />
-              <svg id="icon__email" class="label__svg">
-                <use
-                  href="./images/icons/symbol-defs.svg#icon-email-black"
-                ></use>
-              </svg>
-            </div>
-          </label>
-          <label class="label__four" for="coment">
-            Коментар
-            <textarea
-              class="text__label"
-              name="text"
-              id="coment"
-              cols="30"
-              rows="10"
-              placeholder="Введіть текст"
-            ></textarea>
-          </label>
-          <label>
-            <div class="label__input">
-              <h3 class="label__title">
-                Погоджуюся з розсилкою та приймаю
-                <a class="label__link" href="#">Умови договору</a>
-              </h3>
-              <input
-                class="input__div"
-                type="checkbox"
-                name="security"
-                value="Погоджуюся з росилкою та приймаю Умови договору"
-              />
-            </div>
-          </label>
-          <button class="form__btn" data-close-modal>Відправити</button>
-        </form>
-      </div>
+  <!-- modal -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal__button-close" data-modal-close>
+        <svg class="button__svg">
+          <use href="./images/icons/symbol-defs.svg#icon-close-button"></use>
+        </svg>
+      </button>
+      <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+      <form class="modal__form">
+        <label class="form__label" for="user__name">
+          Ім'я
+          <div class="label__thumb">
+            <input class="form__input" type="text" name="text" id="user__name" />
+            <svg id="icon__vector" class="label__svg">
+              <use href="./images/icons/symbol-defs.svg#icon-person-black"></use>
+            </svg>
+          </div>
+        </label>
+        <label class="form__label" for="user__phone">
+          Телефон
+          <div class="label__thumb">
+            <input class="form__input" type="text" name="tel" pattern="^[ 0-9]+$" id="user__phone" />
+            <svg id="icon__phone" class="label__svg">
+              <use href="./images/icons/symbol-defs.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+        </label>
+        <label class="form__label" for="user__email">
+          Пошта
+          <div class="label__thumb">
+            <input class="form__input" type="email" name="email" id="user__email" />
+            <svg id="icon__email" class="label__svg">
+              <use href="./images/icons/symbol-defs.svg#icon-email-black"></use>
+            </svg>
+          </div>
+        </label>
+        <label class="label__four" for="coment">
+          Коментар
+          <textarea class="text__label" name="text" id="coment" cols="30" rows="10"
+            placeholder="Введіть текст"></textarea>
+        </label>
+        <label>
+          <div class="label__input">
+            <h3 class="label__title">
+              Погоджуюся з розсилкою та приймаю
+              <a class="label__link" href="#">Умови договору</a>
+            </h3>
+            <input class="input__div" type="checkbox" name="security"
+              value="Погоджуюся з росилкою та приймаю Умови договору" />
+          </div>
+        </label>
+        <button class="form__btn" data-close-modal>Відправити</button>
+      </form>
     </div>
+  </div>
 
-    <script src="./module.js"></script>
-  </body>
+  <script src="./module.js"></script>
+</body>
+
 </html>

@@ -1,35 +1,36 @@
-// .header {
-//     padding: 10px 15px;
+.header {
+   padding-top: 10px;
+   padding-bottom: 10px;
 
-//     & .container {
-//       display: flex;
-//       align-items: center;
-//       justify-content: space-between;
-//     }
+    & .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
     
-//     &__logo {
-//       color: $linkColor;
-//       font-family: "Raleway", sans-serif;
-//       font-size: 24px;
-//       font-weight: 700;
-//       letter-spacing: 0.72px;
+    &__logo {
+      color: $linkColor;
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.72px;
   
-//     }
+    }
     
-//     &__logo--colored {
-//       color: #000;
-//     }
+    &__logo--colored {
+      color: #000;
+    }
     
-//     &__nav {
-//     display: none;
-//     }
+    &__nav {
+    // display: none;
+    }
     
-//     &__contact__list {
-//      display: none;
-//     }
+    &__contact__list {
+     display: none;
+    }
     
   
-//   }
+  }
   
 
   @media screen and (min-width:1200px) {
