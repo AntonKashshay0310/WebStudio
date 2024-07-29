@@ -64,7 +64,9 @@
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 20px;
-    @extend %text;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
   }
 
   &__icons-link {}
