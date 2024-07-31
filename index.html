@@ -22,8 +22,8 @@
     <div class="container">
       <a class="header__logo" href="./index.html"><span class="header__logo--colored">Web</span>Studio</a>
       <nav class="header__nav">
-        <input type="checkbox" id="toggle">
-        <label for="toggle">
+        <input class="burger__input"  type="checkbox" id="toggle">
+        <label class="burger__label"  for="toggle">
           <span></span>
         </label>
         <ul class="header__nav__list">
@@ -56,6 +56,42 @@
         </li>
       </ul>
     </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile__menu">
+        <nav class="mobile__nav">
+          <ul class="mobile__nav__list">
+            <li class="mobile__nav__item">
+              <a class="mobile__nav__link current" href="./index.html">Студія</a>
+            </li>
+            <li class="mobile__nav__item">
+              <a class="mobile__nav__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mobile__nav__item">
+              <a class="mobile__nav__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+        <ul class="mobile__contact__list">
+          <li class="mobile__contact__item ">
+            <a href="tel:+380961111111" class="mobile__contact__tel-link ">
+              +38 096 111 11 11</a>
+          </li>
+          <li class="mobile__contact__item">
+            <a href="meilto:info@devstudio.com" class="mobile__contact__email-link">
+              info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mobile__social__list">
+          <li class="mobile__social__item"><a href="" class="mobile__sociale__link">Instagram</a></li>
+          <li class="mobile__social__item"><a href="" class="mobile__sociale__link">Twitter</a></li>
+          <li class="mobile__social__item"><a href="" class="mobile__sociale__link">Facebook</a></li>
+          <li class="mobile__social__item"><a href="" class="mobile__sociale__link">LinkedIn</a></li>
+        </ul>
+      </div>
+      </div>
+</header>
   </header>
 
   <!-- main -->
@@ -74,6 +110,7 @@
       </section>
     <section class="information section">
         <div class="container">
+          
           <ul class="information__list">
             <li class="information__item">
               <h3 class="information__title">УВАГА ДО ДЕТАЛЕЙ</h3>
