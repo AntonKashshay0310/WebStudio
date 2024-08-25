@@ -60,13 +60,17 @@
   }
 
 }
+
 @media screen and (min-width: 768px) {
   .information {
+
 
     &__list {
       display: flex;
       justify-content: space-between;
-     flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding-right: 15px;
+      padding-left: 15px;
     }
 
     &__item {}
@@ -76,7 +80,7 @@
       display: block;
       border-radius: 4px;
       background-color: #f5f4fa;
-      width: 270px;
+      width: 354px;
       height: 120px;
       margin-bottom: 30px;
     }
@@ -111,16 +115,17 @@
       font-weight: 700;
       letter-spacing: 0.42px;
       text-transform: uppercase;
-      margin-bottom: 10px;
+      width: 270px;
     }
 
     &__subtitle {
+      width: 354px;
+      height: 50px;
       color: $mainTextColor;
       font-size: 14px;
       font-weight: 400;
       line-height: 24px;
       letter-spacing: 0.42px;
-      width: 270px;
     }
 
   }
