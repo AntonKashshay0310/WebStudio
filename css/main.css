@@ -535,6 +535,7 @@ body {
 @media screen and (min-width: 1200px) {
   .works {
     margin-bottom: 94px;
+    display: block;
   }
   .works__title {
     color: #212121;
@@ -554,7 +555,6 @@ body {
   .works__img {
     width: 370px;
     height: 294px;
-    flex-shrink: 0;
     margin-bottom: 94px;
   }
   .works__subtitle {
