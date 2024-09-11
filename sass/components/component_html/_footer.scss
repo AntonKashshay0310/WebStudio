@@ -21,11 +21,7 @@
     color: #2196F3;
   }
 
-  &__div {
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-  }
+
 
   &__div-logo {
     text-align: center;
@@ -157,6 +153,12 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  &__div {
+    display: flex;
+
+  }
+
   .footer__contacts {
     display: flex;
     justify-content: space-between;
@@ -167,6 +169,8 @@
     margin-left: 166px;
     margin-right: 152px;
   }
+
+
 }
 
 
