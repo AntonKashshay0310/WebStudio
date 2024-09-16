@@ -56,7 +56,6 @@ body {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 
 @media screen and (min-width: 480px) {
@@ -356,6 +355,9 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
+  .hero {
+    background-image: url("../images/hero/hero-tablet.jpg");
+  }
   .hero__title {
     width: 360px;
     margin: 0 auto;
@@ -363,6 +365,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    background-image: url("../images/hero/hero-desktop.jpg");
     height: 600px;
   }
   .hero__title {
@@ -865,8 +868,6 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     background: #2f303a;
-    /* .footer__div-link {
-      } */
     /* send */
   }
   .footer__logo-colored {
@@ -899,6 +900,9 @@ body {
     line-height: 171.429%;
     letter-spacing: 0.42px;
   }
+  .footer .footer__div-link {
+    margin-left: 70px;
+  }
   .footer__icons .team__icons-link {
     background-color: rgba(255, 255, 255, 0.1);
   }
@@ -920,6 +924,9 @@ body {
   }
   .footer__send {
     margin-left: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .footer__label__title {
     color: #fff;
@@ -939,6 +946,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: transparent;
     padding-left: 16px;
+    margin-right: 12px;
   }
   .footer__form__button {
     display: flex;

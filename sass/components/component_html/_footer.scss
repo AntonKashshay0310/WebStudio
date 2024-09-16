@@ -222,8 +222,9 @@
       letter-spacing: 0.42px;
     }
 
-    /* .footer__div-link {
-      } */
+     .footer__div-link {
+      margin-left: 70px;
+      } 
 
     &__icons .team__icons-link {
       background-color: rgba(255, 255, 255, 0.1);
@@ -259,6 +260,9 @@
     /* send */
     &__send {
       margin-left: 93px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     &__label__title {
@@ -285,6 +289,7 @@
       border: 1px solid rgba(255, 255, 255, 0.3);
       background-color: transparent;
       padding-left: 16px;
+      margin-right: 12px;
     }
 
     &__form__button {

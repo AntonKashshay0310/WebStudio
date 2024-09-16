@@ -55,6 +55,10 @@
 
 @media screen and (min-width: 768px) {
   .hero {
+    background-image:
+    url("../images/hero/hero-tablet.jpg");
+
+
     &__title {
       width: 360px;
       margin: 0 auto;
@@ -64,6 +68,10 @@
 
 @media screen and (min-width: 1200px) {
   .hero {
+
+    background-image:
+    url("../images/hero/hero-desktop.jpg");
+    
     height: 600px;
 
     &__title {
