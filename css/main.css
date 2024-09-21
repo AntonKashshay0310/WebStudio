@@ -859,8 +859,6 @@ body {
   }
   .footer__input {
     width: 450px;
-    margin-left: 166px;
-    margin-right: 152px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -875,10 +873,9 @@ body {
   }
   .footer__div {
     display: flex;
-    align-items: baseline;
   }
   .footer__div-logo {
-    margin-right: 70px;
+    text-align: start;
   }
   .footer__list {
     margin-top: 20px;

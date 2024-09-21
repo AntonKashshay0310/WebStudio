@@ -168,8 +168,6 @@
 
   .footer__input {
     width: 450px;
-    margin-left: 166px;
-    margin-right: 152px;
   }
 
 
@@ -191,11 +189,10 @@
 
     &__div {
       display: flex;
-      align-items: baseline;
     }
 
     &__div-logo {
-      margin-right: 70px;
+     text-align: start;
     }
 
     &__list {
